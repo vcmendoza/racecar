@@ -1,14 +1,17 @@
-# A Blank PhoneGap App
+# A miniRaceCar PhoneGap App
+
 
 ## Usage
 
+
 ### PhoneGap CLI
 
-    $ phonegap create my-app --template blank
+    $ phonegap create racecar app 
+
 
 ### Desktop
 
-In your browser, open the file:
+ In your browser, open the file:
 
     /www/index.html
 
