@@ -21,8 +21,8 @@
 	<access origin="*" />
 
 
-<preference name=”android-minSdkVersion” value=”10″ />
-<preference name=”android-targetSdkVersion” value=”19″ />
+<!--preference name=”android-minSdkVersion” value=”10″ /-->
+<!--preference name=”android-targetSdkVersion” value=”19″ /-->
       <!-- Plugins -->
 
     <!-- Core plugins -->
@@ -32,5 +32,8 @@
     <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-dialogs" />
     <plugin name="cordova-plugin-media" />
+
+  <preference name="phonegap-version" value="8.0.0" />
+  <gap:plugin name="org.apache.cordova.file" />
 
 </widget>
