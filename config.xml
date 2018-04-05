@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<widget id="com.phonegap.racecar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
+	<name>racecar</name>
+
+    	<description>
+
+        A miniRaceCar game using a Phaser Library.
+
+	</description>
+	<author email="vmendoza@quipuware.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    
+
+	<icon src="www/img/icon.png" />
+	<icon src="www/img/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+	<icon src="www/img/icon-48-ldpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+	<content src="index.html" />
+
+	<access origin="*" />
+
+</widget>
