@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <widget id="com.phonegap.racecar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-  <preference name=”android-targetSdkVersion” value=”19″ />
+
 	<name>racecar</name>
 
     	<description>
@@ -13,12 +13,24 @@
         PhoneGap Team
     </author>
 
-
 	<icon src="www/img/icon.png" />
 	<icon src="www/img/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
 	<icon src="www/img/icon-48-ldpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
 	<content src="index.html" />
 
 	<access origin="*" />
+
+
+<preference name=”android-minSdkVersion” value=”10″ />
+<preference name=”android-targetSdkVersion” value=”19″ />
+      <!-- Plugins -->
+
+    <!-- Core plugins -->
+    <plugin name="cordova-plugin-console" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-device-motion" />
+    <plugin name="cordova-plugin-device-orientation" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-media" />
 
 </widget>
