@@ -35,6 +35,6 @@
     <plugin name="cordova-plugin-media" />
 
   <!--preference name="phonegap-version" value="8.0.0" /-->
-  <gap:plugin name="org.apache.cordova.file" />
+  <!--gap:plugin name="org.apache.cordova.file" /-->
 
 </widget>
