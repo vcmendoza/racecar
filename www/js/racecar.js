@@ -20,10 +20,10 @@ var app = {
     function preload() {
 
       //game.stage.backgroundColor = '#777';
-      game.load.image('pista', "../img/pista.jpg");
-      game.load.image('my_car', '../img/my_car.svg');
-      game.load.image('shock','../img/shock.png');
-      game.load.spritesheet('car','../img/car.svg',50,50);
+      game.load.image('pista', "img/pista.jpg");
+      game.load.image('my_car', 'img/my_car.svg');
+      game.load.image('shock','img/shock.png');
+      game.load.spritesheet('car','img/car.svg',50,50);
     }
 
     var car1;

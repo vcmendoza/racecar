@@ -1,12 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.racecar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
     <name>racecar</name>
     <description>
-        A blank PhoneGap app.
-    </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+
+        A miniRaceCar game using a Phaser Library.
+
+	</description>
+    <author email="vmendoza@quipuware.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+    <icon src="www/img/icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="www/img/icon-36-ldpi.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="www/img/icon-48-ldpi.png" />
     <content src="index.html" />
     <access origin="*" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <preference name="phonegap-version" value="8.0.0" />
+    <preference name="android-minSdk" value="21" />
 </widget>
